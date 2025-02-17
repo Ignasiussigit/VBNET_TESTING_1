@@ -1,13 +1,13 @@
 Saya akan share project hasil belajar saya mengenai Program berbasis Desktop yaitu VB.NET
 Dan saya membuat program mengenai Aplikasir <br>
-Database : Ms.Access
+Database : Ms.Access <br>
 VB.NET Versi 2010
 =================================================
-Untuk Login
-ADM001
+Untuk Login <br>
+ADM001 <br>
 ADMIN
 =================================================
-Silahkan di Gunakan untuk bahan belajar Juga :)
+Silahkan di Gunakan untuk bahan belajar Juga :) <br>
 -KeepKodingKodingKodingKoding ding ding ding
 
 ![Image](https://github.com/user-attachments/assets/9ac2c175-559c-4d10-8ebb-d870cd9c4be0)
