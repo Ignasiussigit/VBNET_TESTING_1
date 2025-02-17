@@ -10,6 +10,12 @@ Public Class FormMasterKategoriBarang
         DataGridView1.DataSource = (Ds.Tables("TBL_KATEGORI"))
     End Sub
 
+    Sub TextKosong()
+        TextBox1.Text = ""
+        TextBox2.Text = ""
+        TextBox3.Text = ""
+    End Sub
+
     Private Sub FormMasterKategoriBarang_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
         Call KondisiAwal()
     End Sub
@@ -23,6 +29,7 @@ Public Class FormMasterKategoriBarang
             cmd = New OleDbCommand(SimpanData, Conn)
             cmd.ExecuteNonQuery()
             MsgBox("Data Berhasil Ter-Input ...")
+            Call TextKosong()
             Call KondisiAwal()
         End If
     End Sub

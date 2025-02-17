@@ -32,6 +32,13 @@ Public Class FormMasterAdmin
         TextBox3.Enabled = False
     End Sub
 
+    Sub inpt()
+        TextBox2.Text = ""
+        TextBox3.Text = ""
+        ComboBox1.Text = ""
+        TextBox1.Enabled = False
+    End Sub
+
 
 
 
@@ -44,6 +51,8 @@ Public Class FormMasterAdmin
             TextBox2.Enabled = True
             TextBox3.Enabled = True
             Button1.Text = "SIMPAN"
+            Call inpt()
+            TextBox1.Text = ""
             Button2.Enabled = False
             Button3.Enabled = False
         Else

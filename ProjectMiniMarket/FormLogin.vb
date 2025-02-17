@@ -9,6 +9,10 @@ Public Class FormLogin
     Sub Terbuka()
         FormMenuUtama.LoginToolStripMenuItem.Enabled = False
         FormMenuUtama.LogOutToolStripMenuItem.Enabled = True
+        FormMenuUtama.MasterToolStripMenuItem.Visible = True
+        FormMenuUtama.TransaksiToolStripMenuItem.Visible = True
+        FormMenuUtama.LaporanToolStripMenuItem.Visible = True
+        'Dibawah ini untuk membuka toolstrip  
         FormMenuUtama.MasterToolStripMenuItem.Enabled = True
         FormMenuUtama.TransaksiToolStripMenuItem.Enabled = True
         FormMenuUtama.LaporanToolStripMenuItem.Enabled = True
@@ -35,6 +39,9 @@ Public Class FormLogin
                 Me.Close()
                 'Call Terkunci()
                 Call Terbuka()
+                FormMenuUtama.USER2.Text = Rd!NamaAdmin
+                FormMenuUtama.LEVEL2.Text = Rd!LevelAdmin
+                'FormTransTerimaBarang.Label17.Text = Rd!NamaAdmin
             Else
                 MsgBox("Data Tidak Ada ...")
                 Call Terkunci()

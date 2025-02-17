@@ -84,6 +84,12 @@
     <Compile Include="FormMasterAdmin.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="FormMasterBarang.Designer.vb">
+      <DependentUpon>FormMasterBarang.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormMasterBarang.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="FormMasterKategoriBarang.Designer.vb">
       <DependentUpon>FormMasterKategoriBarang.vb</DependentUpon>
     </Compile>
@@ -101,6 +107,24 @@
       <DependentUpon>FormmMasterASupplier.vb</DependentUpon>
     </Compile>
     <Compile Include="FormmMasterASupplier.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTambahPelanggan1.Designer.vb">
+      <DependentUpon>FormTambahPelanggan1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormTambahPelanggan1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTransPenjualanBarang.Designer.vb">
+      <DependentUpon>FormTransPenjualanBarang.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormTransPenjualanBarang.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTransTerimaBarang.Designer.vb">
+      <DependentUpon>FormTransTerimaBarang.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormTransTerimaBarang.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Module1.vb" />
@@ -127,6 +151,9 @@
     <EmbeddedResource Include="FormMasterAdmin.resx">
       <DependentUpon>FormMasterAdmin.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormMasterBarang.resx">
+      <DependentUpon>FormMasterBarang.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormMasterKategoriBarang.resx">
       <DependentUpon>FormMasterKategoriBarang.vb</DependentUpon>
     </EmbeddedResource>
@@ -135,6 +162,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormmMasterASupplier.resx">
       <DependentUpon>FormmMasterASupplier.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTambahPelanggan1.resx">
+      <DependentUpon>FormTambahPelanggan1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTransPenjualanBarang.resx">
+      <DependentUpon>FormTransPenjualanBarang.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTransTerimaBarang.resx">
+      <DependentUpon>FormTransTerimaBarang.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
